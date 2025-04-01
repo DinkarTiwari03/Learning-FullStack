@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+#p1{
+
+    text-align: center;
+    color: rgb(105, 60, 42);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2{
+
+    text-align: center;
+    color: rgb(105, 60, 42);
+    font-family: cursive;
+    line-height: 20px;
+    text-transform: lowercase ;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(105, 60, 42);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
