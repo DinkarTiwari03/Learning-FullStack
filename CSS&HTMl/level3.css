@@ -1,0 +1,29 @@
+#d1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+}
+
+#d2{
+    background-color: greenyellow;  
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+}
+
+#d3{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+}

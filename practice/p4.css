@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    
+
+}
+
+#search-input{
+    color: black;
+}
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    
+}
+
+a{
+    margin-right: 220px;
+    text-decoration: none;  /*removes underline from link*/
+}
+.contentbox{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+#content{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
