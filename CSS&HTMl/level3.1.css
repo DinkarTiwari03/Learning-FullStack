@@ -1,0 +1,59 @@
+/* #box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 20px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    font-size: 5em;  /* 1.5 times of the box1 font-size size box1 is parent box*/
+    /* width: 5em ;   /*5 times of the box1 font-size size box1 is parent box; */
+/* }  */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static; /* default value */
+    background-color: red;
+}
+#box2{
+    position: relative; /* relative to its normal position */
+    top: 20px; /* move down 20px from its normal position */
+    left: 20px; /* move right 20px from its normal position */
+    background-color: green;
+    
+}
+
+#box3{
+    position: absolute; /* relative to the nearest positioned ancestor (not static) */
+    top: 500px; /* move down 50px from the top of the nearest positioned ancestor */
+    left: 20px; /* move right 50px from the left of the nearest positioned ancestor */
+    background-color: blue;
+}
+#box4{
+    position: fixed; /* relative to the viewport  i.e  */ 
+   /* right: 20px; /* move down 0px from the top of the viewport */
+   left: 0px; /* move right 0px from the left of the viewport
+   /* bottom: 0px;
+   /* background-color: black;
+   /* width: 200vh; /* 100% of the viewport height */
+    text-decoration: white;
+    top: 0;
+}
+
+#box5{
+    position: sticky; /* relative to the viewport when scrolling */
+    top: 0px; /* move down 0px from the top of the viewport */
+    top: 0px;
+    left: 20px;
+    
+}
