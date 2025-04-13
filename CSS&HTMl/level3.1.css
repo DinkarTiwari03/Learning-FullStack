@@ -30,7 +30,8 @@ div{
     top: 20px; /* move down 20px from its normal position */
     left: 20px; /* move right 20px from its normal position */
     background-color: green;
-    
+    z-index: 1; /* higher z-index than box3 */
+
 }
 
 #box3{
@@ -55,5 +56,6 @@ div{
     top: 0px; /* move down 0px from the top of the viewport */
     top: 0px;
     left: 20px;
+    z-index: 4;
     
 }
