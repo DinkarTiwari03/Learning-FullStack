@@ -1,0 +1,11 @@
+div{
+    position: fixed;
+    top: 0px; /* move down 0px from the top of the viewport */
+    right: 0px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url("/assets/shadow.jpg");
+    background-size: cover; 
+    color: white;
+}

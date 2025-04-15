@@ -1,8 +1,15 @@
+body{
+    background-image: url("/assets/shadow.jpg");
+    background-size: cover;
+}
 #box1{
     height: 200px;
     width: 200px;
     background-color: red;
     display: inline-block;
+    border: 2px solid black;
+    background-image: url("/assets/naruto.1.png");
+    background-size: cover;
 }
 
 #box2{
@@ -10,6 +17,7 @@
     width: 200px;
     background-color: aqua;
     display: inline-block;
+    border: 2px solid black;
 }
 
 #box3{
@@ -17,11 +25,15 @@
     width: 200px;
     background-color: greenyellow;
     display: inline-block;
+    border: 2px solid black;
+    background-image: url();
 }
 
 #box4{
     height: 200px;
-    width: 200px;
-    background-color: yellowgreen;
-    display: inline-block;
+    /* width: 200px; */
+    background-color:black;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 100vh;
 }
