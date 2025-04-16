@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50spx;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    /* flex-direction: row-reverse ; right to left and for row left to wright */
+    /* flex-direction: column; column-reverse; bottom to top and for column top to bottom */
+    
+    flex-direction: row;
+    /* justify-content: flex-start; default value */
+    /* justify-content: flex-end; right to left */
+    
+    justify-content:center; 
+
+    /* justify-content: space-between; space between the boxes */
+    
+    /* flex-wrap: wrap; if the boxes are too many to fit in one line, they will go to the next line */
+    
+    align-items: flex-start; /* align the boxes to the top of the container */;
+    /* align-content: center; if the boxes are too many to fit in one line, they will go to the next line and center them vertically */
+
+    /* align-content: flex-start; if the boxes are too many to fit in one line, they will go to the next line and align them to the top   */
+
+}
+
+#box1{
+    background-color: red;
+
+}
+#box2{
+    background-color: greenyellow;
+    /* width: 200px; */
+     height: 100px;  /* align-self: flex-end; align this box to the bottom of the container */
+    /* flex-shrink: 1; */
+    flex-grow: 1; /*this box will grow to fill the available space */ 
+
+}
+#box3{
+    background-color: blueviolet;
+    height: 75px;
+}
+#box4{
+    background-color: orange;
+}
+#box5{
+    background-color: lightpink;
+}
